@@ -107,6 +107,8 @@ body {
 	background: white;
 	border-radius: 3px;
 	margin: 0 auto 5px auto;
+	position: inherit;
+    z-index: 1;
 }
 /*progressbar connectors*/
 #progressbar li:after {
@@ -117,7 +119,7 @@ body {
 	position: absolute;
 	left: -50%;
 	top: 9px;
-	z-index: -1; /*put it behind the numbers*/
+	/*z-index: -1;*/ /*put it behind the numbers*/
 }
 #progressbar li:first-child:after {
 	/*connector not needed before the first step*/
